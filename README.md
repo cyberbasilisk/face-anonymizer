@@ -13,6 +13,11 @@ A command-line tool that detects faces in images, video files, or a live webcam 
 |---|---|
 | <img src="demo/face.jpg" width="320"> | <img src="demo/face_anon.jpg" width="320"> |
 
+<p align="center">
+  <img src="demo/face.jpg" height="240" alt="Original">
+  <img src="demo/face_anon.jpg" height="240" alt="Anonymized">
+</p>
+
 
 ### Setup
 
