@@ -9,6 +9,11 @@ A command-line tool that detects faces in images, video files, or a live webcam 
 3. `anonymize.py` replaces each boxed region with its blurred, pixelated or blacked-out version.
 4. `main.py` writes the frame to the output file and/or shows it in a preview window.
 
+| Before | After |
+|---|---|
+| <img src="demo/face.jpg" width="320"> | <img src="demo/face_anon.jpg" width="320"> |
+
+
 ### Setup
 
 ```bash
