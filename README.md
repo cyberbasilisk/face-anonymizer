@@ -2,7 +2,7 @@
 
 A command-line tool that detects faces in images, video files, or a live webcam stream and obscures them with a blur, pixelation, or solid box.
 
-## How it works
+### How it works
 
 1. `main.py` reads a frame from the image, video or webcam.
 2. `detect.py` converts it to RGB, runs the MediaPipe face detector, then pads and clamps each box to the frame.
@@ -26,7 +26,7 @@ python3 -m pip install -r requirements.txt
 ```
 
 ### Usage
-Supported formats include `.jpg .jpeg .png .bmp .webp` for image files and `.mp4 .avi .mov .mkv .webm` for video files.
+Supported formats include `.jpg .jpeg .png .bmp .webp` for image files, and `.mp4 .avi .mov .mkv .webm` for video files.
 
 Run from the project root:
 
@@ -41,7 +41,7 @@ python3 src/main.py data/clip.mp4 -m blur --show
 python3 src/main.py 0
 ```
 
-## Options
+### Options
 
 | Option | Default | Description |
 |---|---|---|
